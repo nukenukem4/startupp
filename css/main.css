@@ -7,23 +7,23 @@
   right: 558px;
   top: -27px; }
 
-.container .h2 {
+.containerfirst .h2 {
   text-align: center;
   margin: 0 0 45px; }
-  .container .h2 h2:after {
+  .containerfirst .h2 h2:after {
     content: url("../img/line_right.png");
     margin: 0 0 0 15px; }
-  .container .h2 h2:before {
+  .containerfirst .h2 h2:before {
     content: url("../img/line_left.png");
     margin: 0 15px 0 0; }
-  .container .h2 h2 {
+  .containerfirst .h2 h2 {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 800;
     margin: 0 0 20px; }
-    .container .h2 h2 span {
+    .containerfirst .h2 h2 span {
       color: #00a99d; }
-  .container .h2 p {
+  .containerfirst .h2 p {
     font-size: 16px;
     font-weight: 500;
     color: #8a8a8a; }
@@ -98,6 +98,11 @@ header {
   margin: 0 auto;
   padding: 80px 0 0; }
 
+.containerfirst {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 80px 0 0; }
+
 .whywe {
   margin: 0 0 110px; }
   .whywe ul li:nth-child(2) {
@@ -160,7 +165,7 @@ header {
         .features .container .whywhylist li .icon {
           width: 50px;
           float: left;
-          height: 70px;
+          height: 75px;
           margin: 0 45px 0 0; }
           .features .container .whywhylist li .icon i {
             font-size: 45px;
@@ -177,3 +182,76 @@ header {
           .features .container .whywhylist li .hext p {
             font-size: 14px;
             color: #7a7a7a; }
+
+.whywe2 .container ul {
+  list-style: none;
+  text-align: center; }
+  .whywe2 .container ul li {
+    display: inline-block;
+    width: 370px;
+    margin: 0 0 60px; }
+    .whywe2 .container ul li .icon {
+      width: 40px;
+      float: left;
+      height: 100px;
+      margin: 0 45px 0 0; }
+      .whywe2 .container ul li .icon .flag {
+        margin: -3px 0 0;
+        display: block;
+        height: 20px;
+        background-color: #00a99d;
+        position: relative;
+        z-index: -2; }
+      .whywe2 .container ul li .icon .flag:after {
+        content: "";
+        display: block;
+        height: 29px;
+        width: 29px;
+        position: absolute;
+        background-color: #00a99d;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        bottom: -15px;
+        left: 5px;
+        z-index: -3; }
+      .whywe2 .container ul li .icon i {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        font-size: 20px;
+        color: #e4e4e4;
+        padding: 15px  0 0;
+        background-color: #404040;
+        -webkit-border-radius: 3px;
+                border-radius: 3px;
+        position: relative;
+        z-index: 4; }
+      .whywe2 .container ul li .icon i:after {
+        content: "";
+        display: block;
+        height: 29px;
+        width: 29px;
+        position: absolute;
+        background-color: #404040;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        bottom: -14px;
+        left: 5px;
+        z-index: -1; }
+    .whywe2 .container ul li .text {
+      text-align: left; }
+      .whywe2 .container ul li .text h3 {
+        font-size: 14px;
+        color: #606060;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .whywe2 .container ul li .text span {
+        display: inline-block;
+        color: #aaaaaa;
+        font-size: 12px;
+        margin-bottom: 15px; }
+      .whywe2 .container ul li .text p {
+        font-size: 14px;
+        color: #7a7a7a; }
