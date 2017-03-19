@@ -143,8 +143,37 @@ header {
       color: #8a8a8a; }
 
 .features {
-  background: #383838; }
+  background-color: #383838; }
   .features .container {
-    background-image: url(../img/mockup.png) center no-repeat; }
-  .features .whywhylist {
-    width: 460px; }
+    background-image: url(../img/mockup.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding-bottom: 40px; }
+    .features .container .whywhylist {
+      margin: 85px 0 0;
+      list-style: none; }
+      .features .container .whywhylist li:last-child {
+        margin: 0px; }
+      .features .container .whywhylist li {
+        margin: 0 0 60px;
+        width: 415px; }
+        .features .container .whywhylist li .icon {
+          width: 50px;
+          float: left;
+          height: 70px;
+          margin: 0 45px 0 0; }
+          .features .container .whywhylist li .icon i {
+            font-size: 45px;
+            color: #00a99d; }
+        .features .container .whywhylist li .hext {
+          width: 320px; }
+          .features .container .whywhylist li .hext h3 {
+            width: 320px;
+            font-size: 14px;
+            color: #e4e4e4;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 0 0 20px; }
+          .features .container .whywhylist li .hext p {
+            font-size: 14px;
+            color: #7a7a7a; }
