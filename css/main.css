@@ -1,51 +1,57 @@
-.features .container {
+.skill .progress li h4 {
+  font-size: 14px;
+  color: #606060;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.features .container, .skill .container {
   position: relative; }
 
-.features .container:before {
+.features .container:before, .skill .container:before {
   content: url("../img/keyIcon.png");
   position: absolute;
   right: 558px;
   top: -27px; }
 
-.containerfirst .h2 {
+.containerfirst .h2, .works .h2 {
   text-align: center;
   margin: 0 0 45px; }
-  .containerfirst .h2 h2:after {
+  .containerfirst .h2 h2:after, .works .h2 h2:after {
     content: url("../img/line_right.png");
     margin: 0 0 0 15px; }
-  .containerfirst .h2 h2:before {
+  .containerfirst .h2 h2:before, .works .h2 h2:before {
     content: url("../img/line_left.png");
     margin: 0 15px 0 0; }
-  .containerfirst .h2 h2 {
+  .containerfirst .h2 h2, .works .h2 h2 {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 800;
     margin: 0 0 20px; }
-    .containerfirst .h2 h2 span {
+    .containerfirst .h2 h2 span, .works .h2 h2 span {
       color: #00a99d; }
-  .containerfirst .h2 p {
+  .containerfirst .h2 p, .works .h2 p {
     font-size: 16px;
     font-weight: 500;
     color: #8a8a8a; }
 
-.features .container .h2 {
+.features .container .h2, .skill .container .h2 {
   text-align: center;
   margin: 0 0 45px; }
-  .features .container .h2 h2:after {
+  .features .container .h2 h2:after, .skill .container .h2 h2:after {
     content: url("../img/line_right.png");
     margin: 0 0 0 15px; }
-  .features .container .h2 h2:before {
+  .features .container .h2 h2:before, .skill .container .h2 h2:before {
     content: url("../img/line_left.png");
     margin: 0 15px 0 0; }
-  .features .container .h2 h2 {
+  .features .container .h2 h2, .skill .container .h2 h2 {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 800;
     margin: 0 0 20px;
     color: #e4e4e4; }
-    .features .container .h2 h2 span {
+    .features .container .h2 h2 span, .skill .container .h2 h2 span {
       color: #00a99d; }
-  .features .container .h2 p {
+  .features .container .h2 p, .skill .container .h2 p {
     font-size: 16px;
     font-weight: 500;
     color: #606060; }
@@ -255,3 +261,28 @@ header {
       .whywe2 .container ul li .text p {
         font-size: 14px;
         color: #7a7a7a; }
+
+.skill {
+  background-color: #383838; }
+  .skill .container:before {
+    content: url("../img/bag.png"); }
+  .skill .progress {
+    text-align: center; }
+    .skill .progress li {
+      width: 170px;
+      display: inline-block;
+      padding: 0 0 70px; }
+      .skill .progress li p {
+        display: inline-block;
+        font-size: 30px;
+        color: #e4e4e4;
+        text-transform: uppercase;
+        width: 120px;
+        height: 120px;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        border: 3px solid #00a99d;
+        line-height: 120px;
+        margin: 0 0 20px; }
+        .skill .progress li p span {
+          font-size: 16px; }

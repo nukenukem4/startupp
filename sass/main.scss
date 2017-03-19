@@ -1,3 +1,12 @@
+%h4 {
+    h4 {    
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  font-weight: 700;
+  text-transform: uppercase;
+    }
+}
+
 %iconCenterDarck {
      .container {
          position: relative;
@@ -330,6 +339,41 @@ background-color: #383838;
 }
 
 
+.skill {
+    background-color: #383838;
+    @extend %iconCenterDarck; 
+    .container:before {
+	    content: url('../img/bag.png');
+    }
+    .progress {
+        text-align: center;
+        li {
+            width: 170px;
+            display: inline-block;
+             @extend %h4;
+             padding: 0 0 70px;
+            p {   
+               
+                span {
+                    font-size: 16px;
+                }
+                display: inline-block;
+                  font-size: 30px;
+                  color: rgb(228, 228, 228);
+                  text-transform: uppercase;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                    border: 3px solid #00a99d;
+                line-height: 120px;
+                margin: 0 0 20px;
+                }
+            }
+        }
+    }
 
+.works {
+    @extend %h2light;
+}
 
 
