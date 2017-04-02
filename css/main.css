@@ -1,13 +1,13 @@
-.skill .progress li h4 {
+.skill .progress li h4, .facts .result li h4 {
   font-size: 14px;
   color: #606060;
   font-weight: 700;
   text-transform: uppercase; }
 
-.features .container, .skill .container {
+.features .container, .skill .container, .facts .container {
   position: relative; }
 
-.features .container:before, .skill .container:before {
+.features .container:before, .skill .container:before, .facts .container:before {
   content: url("../img/keyIcon.png");
   position: absolute;
   right: 558px;
@@ -34,24 +34,24 @@
     font-weight: 500;
     color: #8a8a8a; }
 
-.features .container .h2, .skill .container .h2 {
+.features .container .h2, .skill .container .h2, .facts .container .h2 {
   text-align: center;
   margin: 0 0 45px; }
-  .features .container .h2 h2:after, .skill .container .h2 h2:after {
+  .features .container .h2 h2:after, .skill .container .h2 h2:after, .facts .container .h2 h2:after {
     content: url("../img/line_right.png");
     margin: 0 0 0 15px; }
-  .features .container .h2 h2:before, .skill .container .h2 h2:before {
+  .features .container .h2 h2:before, .skill .container .h2 h2:before, .facts .container .h2 h2:before {
     content: url("../img/line_left.png");
     margin: 0 15px 0 0; }
-  .features .container .h2 h2, .skill .container .h2 h2 {
+  .features .container .h2 h2, .skill .container .h2 h2, .facts .container .h2 h2 {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 800;
     margin: 0 0 20px;
     color: #e4e4e4; }
-    .features .container .h2 h2 span, .skill .container .h2 h2 span {
+    .features .container .h2 h2 span, .skill .container .h2 h2 span, .facts .container .h2 h2 span {
       color: #00a99d; }
-  .features .container .h2 p, .skill .container .h2 p {
+  .features .container .h2 p, .skill .container .h2 p, .facts .container .h2 p {
     font-size: 16px;
     font-weight: 500;
     color: #606060; }
@@ -80,17 +80,18 @@ header {
       text-align: right; }
       header .cont .menu .search {
         color: #00a99d; }
-      header .cont .menu .portfolio {
+      header .cont .menu li:hover {
         display: inline-block;
-        line-height: 40px;
         background: #00a99d;
         -webkit-border-radius: 3px;
-                border-radius: 3px;
-        padding: 0 15px;
-        color: #e4e4e4; }
+                border-radius: 3px; }
+        header .cont .menu li:hover a {
+          color: #e4e4e4; }
       header .cont .menu li {
+        padding: 0 15px;
+        line-height: 40px;
         display: inline-block;
-        margin: 0 0 0 25px; }
+        margin: 0 0 0 5px; }
         header .cont .menu li a {
           text-decoration: none;
           font-size: 13px;
@@ -111,47 +112,47 @@ header {
 
 .whywe {
   margin: 0 0 110px; }
-  .whywe ul li:nth-child(2) {
-    margin: 0 20px; }
-    .whywe ul li:nth-child(2) i {
-      background: #269086;
-      color: #e4e4e4; }
-    .whywe ul li:nth-child(2) a {
-      border: none;
-      background: #269086;
-      color: #e4e4e4; }
-  .whywe ul li {
-    display: inline-block;
-    width: 371px;
+  .whywe ul {
     text-align: center; }
-    .whywe ul li i {
-      background: #383838;
-      line-height: 100px;
-      width: 100px;
-      -webkit-border-radius: 50%;
-              border-radius: 50%;
-      color: #e4e4e4;
-      font-size: 36px;
-      margin: 0 0 30px; }
-    .whywe ul li h3 {
-      text-transform: uppercase;
-      font-size: 14px;
-      font-weight: 800;
-      margin: 0 0 15px; }
-    .whywe ul li p {
-      font-size: 14px;
-      font-weight: 500;
-      margin: 0 0 20px;
-      color: #8a8a8a; }
-    .whywe ul li a {
+    .whywe ul li:hover i {
+      background: #269086;
+      color: #e4e4e4; }
+    .whywe ul li:hover a {
+      background: #269086;
+      color: #e4e4e4; }
+    .whywe ul li {
+      margin: 0 5px 0;
       display: inline-block;
-      line-height: 30px;
-      padding: 0 10px;
-      border: 1px solid #dedede;
-      -webkit-border-radius: 3px;
-              border-radius: 3px;
-      text-decoration: none;
-      color: #8a8a8a; }
+      width: 371px;
+      text-align: center; }
+      .whywe ul li i {
+        background: #383838;
+        line-height: 100px;
+        width: 100px;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        color: #e4e4e4;
+        font-size: 36px;
+        margin: 0 0 30px; }
+      .whywe ul li h3 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 800;
+        margin: 0 0 15px; }
+      .whywe ul li p {
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0 0 20px;
+        color: #8a8a8a; }
+      .whywe ul li a {
+        display: inline-block;
+        line-height: 30px;
+        padding: 0 10px;
+        border: 1px solid #dedede;
+        -webkit-border-radius: 3px;
+                border-radius: 3px;
+        text-decoration: none;
+        color: #8a8a8a; }
 
 .features {
   background-color: #383838; }
@@ -286,3 +287,124 @@ header {
         margin: 0 0 20px; }
         .skill .progress li p span {
           font-size: 16px; }
+
+.gallery {
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  margin: -4px 0 0; }
+  .gallery li {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin: 0px 2px 2px 0; }
+    .gallery li .hover {
+      display: none; }
+  .gallery li:hover .hover {
+    background: #1ca399;
+    height: 250px;
+    width: 315px;
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    padding-top: 50px; }
+    .gallery li:hover .hover h4 {
+      margin: 40px 0 10px;
+      font-size: 16px;
+      color: #e4e4e4; }
+    .gallery li:hover .hover p {
+      margin: 0 0 15px;
+      font-size: 12px;
+      color: #e4e4e4; }
+    .gallery li:hover .hover .like {
+      font-size: 12px;
+      color: #e4e4e4; }
+    .gallery li:hover .hover a:hover {
+      background-image: url(../img/bgrh.png);
+      z-index: 2;
+      color: #e4e4e4; }
+    .gallery li:hover .hover a {
+      position: relative;
+      margin: 0 -17px 0 0;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      color: #1ca399;
+      background-image: url(../img/bgr.png);
+      background-position: top center; }
+      .gallery li:hover .hover a i {
+        padding: 13px 0 0; }
+
+.gal {
+  text-align: center; }
+  .gal .viveall {
+    text-decoration: none;
+    width: 1170px;
+    display: inline-block;
+    text-align: center;
+    margin: 50px 0 107px;
+    line-height: 40px;
+    background-color: #1ca399;
+    color: #e4e4e4;
+    -webkit-border-radius: 3px;
+            border-radius: 3px; }
+
+.facts {
+  background-color: #383838; }
+  .facts .container:before {
+    content: url("../img/bag.png"); }
+  .facts .result {
+    padding: 0 0 95px;
+    text-align: center; }
+    .facts .result li {
+      width: 270px;
+      display: inline-block;
+      margin: 0 8px; }
+    .facts .result i {
+      display: block;
+      color: #1ca399;
+      font-size: 20px;
+      background-image: url(../img/line.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 0 14px; }
+    .facts .result p {
+      color: #e4e4e4;
+      font-size: 80px;
+      margin: 0 0 14px; }
+    .facts .result p:before {
+      content: url("../img/bgnubm.png");
+      margin: 0 15px 0 0;
+      line-height: 80px; }
+    .facts .result p:after {
+      content: url("../img/bgnubm.png");
+      margin: 0 0 0 15px; }
+
+.result li:hover p:before {
+  content: url("../img/bgnubmh.png"); }
+
+.result li:hover p:after {
+  content: url("../img/bgnubmh.png"); }
+
+.areyou {
+  background-color: #00a99d; }
+  .areyou .container > * {
+    display: inline-block; }
+  .areyou .container {
+    padding: 20px 0; }
+    .areyou .container p {
+      margin: 0 340px 0 0;
+      font-size: 16px;
+      color: #e4e4e4;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .areyou .container a {
+      text-align: right;
+      line-height: 40px;
+      background: #e4e4e4;
+      -webkit-border-radius: 3px;
+              border-radius: 3px;
+      padding: 0 20px; }
