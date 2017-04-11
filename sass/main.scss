@@ -111,7 +111,7 @@ header {
             display: table-cell;
             width: 170px;
         }
-       menu {
+        menu {
             vertical-align: middle;
             display: table-cell;
             width: 1000px;
@@ -1062,8 +1062,8 @@ background-color: #383838;
 .copyright {
     .container {
          position: relative;
-        padding: 0;
-        margin: 0;
+          padding: 55px 0 30px;
+        margin: 0 auto;
     }
     .container:before {
 	    content: url('../img/gototop.png');
@@ -1071,7 +1071,7 @@ background-color: #383838;
 	    right: 558px;
         top: -27px;
     }
-    padding: 55px 0 30px;
+  
     background: #333333;
   font-size: 14px;
   color: rgb(204, 204, 204);

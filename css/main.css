@@ -818,15 +818,14 @@ header {
           border: none; }
 
 .copyright {
-  padding: 55px 0 30px;
   background: #333333;
   font-size: 14px;
   color: #cccccc;
   text-align: center; }
   .copyright .container {
     position: relative;
-    padding: 0;
-    margin: 0; }
+    padding: 55px 0 30px;
+    margin: 0 auto; }
   .copyright .container:before {
     content: url("../img/gototop.png");
     position: absolute;
