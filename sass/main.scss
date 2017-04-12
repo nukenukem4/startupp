@@ -270,6 +270,14 @@ background-color: #383838;
         ul {
             list-style: none;
             text-align: center;
+            li:hover {
+                .icon {
+                     i {
+                          background: url(../img/falgh.png);
+                      }
+                }
+               
+            }
             li {
                 display: inline-block;
                 width: 370px;
@@ -279,52 +287,19 @@ background-color: #383838;
                     float: left;
                     height: 100px;
                     margin: 0 45px 0 0;
-                      .flag {
-                          margin: -3px 0 0;
-                                display: block;
-                                height: 20px;
-                                background-color: #00a99d;;
-                                position: relative;
-                          z-index: -2;
-                            }
-                        .flag:after {
-                          content:"";
-                          display: block;
-                          height: 29px;
-                          width: 29px;
-                          position: absolute;
-                          background-color: #00a99d; 
-                          transform: rotate(45deg);
-                          bottom: -15px;
-                          left: 5px;
-                          z-index: -3;
-                      }
                         i {
-                        text-align: center;
+                            height: 70px;
+                  
                         width: 100%;
                         display: inline-block;
                         font-size: 20px;
                         color: #e4e4e4;
                         padding: 15px  0 0;
-                        background-color: #404040;
-                        border-radius: 3px;
-                        position: relative;
-                            z-index: 4;
-                            
+                        background: url(../img/falg.png);
+                       background-repeat: no-repeat;
                             
                        }
-                      i:after {
-                          content:"";
-                          display: block;
-                          height: 29px;
-                          width: 29px;
-                          position: absolute;
-                          background-color: #404040;  
-                          transform: rotate(45deg);
-                          bottom: -14px;
-                          left: 5px;
-                          z-index: -1;
-                      }
+                      
                     }
                   .text {
                       text-align: left;

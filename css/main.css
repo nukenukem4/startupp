@@ -201,6 +201,8 @@ header {
 .whywe2 .container ul {
   list-style: none;
   text-align: center; }
+  .whywe2 .container ul li:hover .icon i {
+    background: url(../img/falgh.png); }
   .whywe2 .container ul li {
     display: inline-block;
     width: 370px;
@@ -210,51 +212,15 @@ header {
       float: left;
       height: 100px;
       margin: 0 45px 0 0; }
-      .whywe2 .container ul li .icon .flag {
-        margin: -3px 0 0;
-        display: block;
-        height: 20px;
-        background-color: #00a99d;
-        position: relative;
-        z-index: -2; }
-      .whywe2 .container ul li .icon .flag:after {
-        content: "";
-        display: block;
-        height: 29px;
-        width: 29px;
-        position: absolute;
-        background-color: #00a99d;
-        -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
-        bottom: -15px;
-        left: 5px;
-        z-index: -3; }
       .whywe2 .container ul li .icon i {
-        text-align: center;
+        height: 70px;
         width: 100%;
         display: inline-block;
         font-size: 20px;
         color: #e4e4e4;
         padding: 15px  0 0;
-        background-color: #404040;
-        -webkit-border-radius: 3px;
-                border-radius: 3px;
-        position: relative;
-        z-index: 4; }
-      .whywe2 .container ul li .icon i:after {
-        content: "";
-        display: block;
-        height: 29px;
-        width: 29px;
-        position: absolute;
-        background-color: #404040;
-        -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
-        bottom: -14px;
-        left: 5px;
-        z-index: -1; }
+        background: url(../img/falg.png);
+        background-repeat: no-repeat; }
     .whywe2 .container ul li .text {
       text-align: left; }
       .whywe2 .container ul li .text h3 {
